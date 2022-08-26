@@ -86,10 +86,6 @@
                   <td></td>
                 </tr>
                 <tr>
-                  <th scope="row">Priority</th>
-                  <td></td>
-                </tr>
-                <tr>
                   <th scope="row">Complaint Description</th>
                   <td></td>
                 </tr>
@@ -98,18 +94,13 @@
             <form class="row g-3">
               <div class="form-floating">
                 <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                  <option selected>Pending</option>
-                  <option value="1">Approved</option>
-                  <option value="2">Rejected</option>
+                  <option selected>Assigned</option>
+                  <option value="1">Visit Scheduled</option>
+                  <option value="2">Delayed</option>
+                  <option value="3">Failure</option>
+                  <option value="4">Success</option>
                 </select>
                 <label for="floatingSelect">Update Status</label>
-              </div>
-              <div class="form-floating">
-                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                  <option selected>Pending</option>
-                  <option value="1">Approved</option>
-                </select>
-                <label for="floatingSelect">Assign Worker</label>
               </div>
               <div class="col-auto">
                 <button type="submit" class="btn btn-primary mb-3">Update Complaint</button>
